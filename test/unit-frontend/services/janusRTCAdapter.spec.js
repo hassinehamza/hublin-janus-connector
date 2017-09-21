@@ -45,7 +45,7 @@ describe('janusAdapter service', function() {
     angular.mock.inject(function(_janusRTCAdapter_) {
       janusRTCAdapter = _janusRTCAdapter_;
     });
-
+    janusRTCAdapter.setRoom(1234);
   });
 
   describe('The connect method', function() {
